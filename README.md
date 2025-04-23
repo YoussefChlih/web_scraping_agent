@@ -55,13 +55,19 @@ L'API est disponible à l'adresse http://localhost:8000/api. Les principaux endp
 Pour plus de détails, consultez la section API de l'application.
 
 ## Exemples d'utilisation
-![Texte alternatif pour l'image](images/image1.png)  
+![image 1](images/image 1.png)  
 ### Extraction simple
-
 1. Entrez l'URL du site à extraire
-2. Sélectionnez les éléments souhaités (titres, paragraphes, images, etc.)
-3. Choisissez le format d'export
-4. Lancez l'extraction et visualisez les résultats
+   ![image 2](images/image 2.png)
+2. Choisissez le format d'export (CVS, JSON, Excel, Text)
+   ![Timage 3](images/image 3.png)   
+4. Sélectionnez les éléments souhaités (titres, paragraphes, images, etc.)
+   ![image 4](images/image 4.png)  
+5. Confimer
+   ![image 5](images/image 5.png)  
+7. Lancez l'extraction et visualisez les résultats
+   ![image 6](images/image 6.png)
+   ![image 7](images/image 7.png)  
 
 ### Extraction avancée
 - Activez Selenium pour les sites utilisant JavaScript
