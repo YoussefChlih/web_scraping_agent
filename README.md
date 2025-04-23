@@ -55,8 +55,9 @@ L'API est disponible à l'adresse http://localhost:8000/api. Les principaux endp
 Pour plus de détails, consultez la section API de l'application.
 
 ## Exemples d'utilisation
-
+![Texte alternatif pour l'image](images/image1.png)  
 ### Extraction simple
+
 1. Entrez l'URL du site à extraire
 2. Sélectionnez les éléments souhaités (titres, paragraphes, images, etc.)
 3. Choisissez le format d'export
@@ -67,14 +68,6 @@ Pour plus de détails, consultez la section API de l'application.
 - Configurez la pagination pour extraire plusieurs pages
 - Utilisez l'API pour des extractions automatisées
 
-## Contribution
-Les contributions sont les bienvenues ! Voici comment participer :
-
-1. Forkez le projet
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/amazing-feature`)
-3. Committez vos changements (`git commit -m 'Add some amazing feature'`)
-4. Pushez vers la branche (`git push origin feature/amazing-feature`)
-5. Ouvrez une Pull Request
 
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
