@@ -1,0 +1,96 @@
+/* Structure principale */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.main-content {
+  flex-grow: 1;
+  min-height: calc(100vh - 64px);
+  overflow-y: auto;
+  background-color: inherit;
+  transition: margin-left 0.3s;
+}
+
+/* Code blocks */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2px 4px;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+}
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s;
+}
+
+/* Utilitaires */
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Palette de couleurs personnalisée */
+.success-light-bg {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.warning-light-bg {
+  background-color: rgba(255, 152, 0, 0.1);
+}
+
+.error-light-bg {
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+.info-light-bg {
+  background-color: rgba(33, 150, 243, 0.1);
+}

@@ -1,0 +1,43 @@
+2025-04-23 16:29:09,970 - WebScraperETL - INFO - Starting ETL pipeline for source: https://www.linkedin.com/jobs/search/?currentJobId=4074280725&keywords=Data%20science%20intern&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true
+2025-04-23 16:29:15,931 - WebScraperETL - INFO - Extracting with Selenium: https://www.linkedin.com/jobs/search/?currentJobId=4074280725&keywords=Data%20science%20intern&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true
+2025-04-23 16:29:15,931 - WDM - INFO - ====== WebDriver manager ======
+2025-04-23 16:29:16,892 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 16:29:17,289 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 16:29:20,666 - WDM - INFO - There is no [win64] chromedriver "135.0.7049.97" for browser google-chrome "135.0.7049" in cache
+2025-04-23 16:29:20,667 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 16:29:21,485 - WDM - INFO - WebDriver version 135.0.7049.97 selected
+2025-04-23 16:29:21,489 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-23 16:29:21,490 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-23 16:29:21,763 - WDM - INFO - Driver downloading response is 200
+2025-04-23 16:30:41,844 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 16:30:43,838 - WDM - INFO - Driver has been saved in cache [C:\Users\chlih\.wdm\drivers\chromedriver\win64\135.0.7049.97]
+2025-04-23 16:32:58,225 - WebScraperETL - INFO - Starting transformation pipeline
+2025-04-23 16:32:58,225 - WebScraperETL - INFO - Cleaning text fields
+2025-04-23 16:32:58,226 - WebScraperETL - INFO - Normalizing date formats
+2025-04-23 16:32:58,230 - WebScraperETL - INFO - Converting currencies to standard format
+2025-04-23 16:32:58,231 - WebScraperETL - INFO - Validating data types
+2025-04-23 16:32:58,231 - WebScraperETL - INFO - Enriching data with metadata
+2025-04-23 20:55:42,644 - WebScraperETL - INFO - Fetching page with retry: https://www.linkedin.com/jobs/search/?currentJobId=4074280725&keywords=Data%20science%20intern&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true
+2025-04-23 20:57:12,872 - WebScraperETL - INFO - Extracting with Selenium: https://www.linkedin.com/jobs/search/?currentJobId=4074280725&keywords=Data%20science%20intern&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true
+2025-04-23 20:57:12,872 - WDM - INFO - ====== WebDriver manager ======
+2025-04-23 20:57:14,166 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 20:57:14,274 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 20:57:14,379 - WDM - INFO - Driver [C:\Users\chlih\.wdm\drivers\chromedriver\win64\135.0.7049.97\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-23 20:58:13,824 - WebScraperETL - INFO - Fetching page with retry: https://www.linkedin.com/jobs/search/?currentJobId=4074280725&keywords=Data%20science%20intern&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true
+2025-04-23 20:58:15,691 - WebScraperETL - INFO - Extracting with Selenium: https://www.linkedin.com/jobs/search/?currentJobId=4074280725&keywords=Data%20science%20intern&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true
+2025-04-23 20:58:15,692 - WDM - INFO - ====== WebDriver manager ======
+2025-04-23 20:58:16,792 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 20:58:16,879 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 20:58:16,982 - WDM - INFO - Driver [C:\Users\chlih\.wdm\drivers\chromedriver\win64\135.0.7049.97\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-23 20:58:25,689 - WebScraperETL - INFO - Starting transformation pipeline
+2025-04-23 20:58:25,689 - WebScraperETL - INFO - Cleaning text fields
+2025-04-23 20:58:25,691 - WebScraperETL - INFO - Normalizing date formats
+2025-04-23 20:58:25,693 - WebScraperETL - INFO - Converting currencies to standard format
+2025-04-23 20:58:25,694 - WebScraperETL - INFO - Validating data types
+2025-04-23 20:58:25,695 - WebScraperETL - INFO - Enriching data with metadata
+2025-04-23 20:58:27,674 - WebScraperETL - INFO - Starting transformation pipeline
+2025-04-23 20:58:27,674 - WebScraperETL - INFO - Cleaning text fields
+2025-04-23 20:58:27,675 - WebScraperETL - INFO - Normalizing date formats
+2025-04-23 20:58:27,678 - WebScraperETL - INFO - Converting currencies to standard format
+2025-04-23 20:58:27,679 - WebScraperETL - INFO - Validating data types
+2025-04-23 20:58:27,679 - WebScraperETL - INFO - Enriching data with metadata
