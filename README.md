@@ -59,7 +59,7 @@ Pour plus de détails, consultez la section API de l'application.
 ### Extraction simple
 1. Entrez l'URL du site à extraire
 ![image 2](images/image2.png)
-2. Choisissez le format d'export (CVS, JSON, Excel, Text)
+2. Choisissez le format d'export (CSV, JSON, Excel, Text)
 ![Timage 3](images/image3.png)   
 3. Sélectionnez les éléments souhaités (titres, paragraphes, images, etc.)
 ![image 4](images/image4.png)  
